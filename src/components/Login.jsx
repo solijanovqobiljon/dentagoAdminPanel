@@ -47,7 +47,10 @@ const Login = () => {
                 <div></div>
 
                 <div className="w-full max-w-sm mx-auto">
-                   
+                    {/* Header */}
+                    <div className="flex gap-2 flex-wrap items-center justify-center mb-10">
+                        <img src={DentaGo} alt="DentaGo" className="w-auto h-33" />
+                    </div>
 
                     {/* Form */}
                     <form onSubmit={handleLogin} className="space-y-6">
