@@ -5,8 +5,6 @@ import { useNavigate } from 'react-router-dom';
 import { Eye, EyeOff, Phone, Globe } from 'lucide-react';
 
 import DentaGo from "../assets/dentago.png"
-import Dentalist from "../assets/dentalist.png"
-import Dentacrm from "../assets/dentacrm.png"
 
 const Login = () => {
     const { t, login } = useData();
@@ -49,12 +47,7 @@ const Login = () => {
                 <div></div>
 
                 <div className="w-full max-w-sm mx-auto">
-                    {/* Header */}
-                    <div className="flex gap-2 flex-wrap items-center justify-center mb-10">
-                        <img src={Dentalist} alt="Dentalist" className="w-auto h-16" />
-                        <img src={DentaGo} alt="DentaGo" className="w-auto h-22" />
-                        <img src={Dentacrm} alt="Dentalist" className="w-auto h-20" />
-                    </div>
+                   
 
                     {/* Form */}
                     <form onSubmit={handleLogin} className="space-y-6">
